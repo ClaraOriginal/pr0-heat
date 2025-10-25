@@ -1,0 +1,19 @@
+{
+  "name": "pr0gramm Heat Mapper",
+  "version": "1.0",
+  "manifest_version": 3,
+  "description": "Fängt pr0gramm API-Requests ab und zeigt hitze der tags an.",
+  "permissions": [
+    "webRequest"
+  ],
+  "host_permissions": ["https://pr0gramm.com/*"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://pr0gramm.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
