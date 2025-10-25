@@ -50,7 +50,6 @@ pr0-heat/
 ├─ manifest.json        # Definition der Extension
 ├─ background.js        # Fängt API‑Requests ab und sendet Daten an Content‑Script
 ├─ content.js           # Manipuliert DOM (Farben, Styles)
-├─ content.css          # Optionales Styling für Votes usw.
 └─ README.md            # Diese Datei
 ```
 
